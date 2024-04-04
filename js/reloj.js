@@ -38,5 +38,6 @@ function updateDigitalReloj(){
   const digitalreloj  = document.getElementById('digital-clock');
   digitalreloj.textContent=`${hora}:${minutos}:${segundos} ${am_pm}`;
 }
+
 setInterval(updateDigitalReloj, 1000);
 

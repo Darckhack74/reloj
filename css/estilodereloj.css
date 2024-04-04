@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+.analog-clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.hand {
+  position: absolute;
+  background-color: #333;
+  transform-origin: 50% 100%;
+  border-radius: 3px;
+}
+
+  .hour {
+    height: 35px;
+    width: 4px;
+    top: 65px;
+    left: 98px;
+  }
+
+  .minute {
+    height: 50px;
+    width: 3px;
+    top: 49px;
+    left: 99px;
+  }
+
+.second {
+  height: 55px;
+  width: 2px;
+  top: 45px;
+  left: 99px;
+  background-color: red;
+}
+
+
+
+.center-circle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #333;
+  border-radius: 50%;
+  top: 94px;
+  left: 94px;
+}
+
+.digital-clock {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+}
+
